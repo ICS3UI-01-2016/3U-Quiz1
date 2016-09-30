@@ -19,7 +19,10 @@ public class Quiz1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        
+        // create a city
         City af = new City();
+        // create a robot
         Robot rem = new Robot(af, 4, 0, Direction.EAST);
 
         // create walls
@@ -41,7 +44,8 @@ public class Quiz1 {
         new Thing(af, 3, 2);
         new Thing(af, 2, 3);
         new Thing(af, 1, 4);
-
+        
+        // make robot move and pick thing 
         rem.move();
         rem.pickThing();
         rem.turnLeft();
