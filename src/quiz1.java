@@ -9,7 +9,6 @@ import becker.robots.Wall;
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-
 /**
  *
  * @author woodc9217
@@ -23,25 +22,25 @@ public class quiz1 {
         //create a new city
         City mtl = new City();
         //create a robot
-        Robot candice = new Robot(mtl,4,0,Direction.EAST);
+        Robot candice = new Robot(mtl, 4, 0, Direction.EAST);
         //Place Walls
-        new Wall(mtl,4,2, Direction.WEST);
-        new Wall(mtl,3,3, Direction.WEST);
-        new Wall(mtl,2,4, Direction.WEST);
-        new Wall(mtl,2,5, Direction.EAST);
-        new Wall(mtl,4,2, Direction.NORTH);
-        new Wall(mtl,3,3, Direction.NORTH);
-        new Wall(mtl,2,4, Direction.NORTH);
-        new Wall(mtl,2,5, Direction.NORTH);
-        new Wall(mtl,3,6, Direction.EAST);
-        new Wall(mtl,4,7, Direction.EAST);
-        new Wall(mtl,3,6, Direction.NORTH);
-        new Wall(mtl,4,7, Direction.NORTH);
+        new Wall(mtl, 4, 2, Direction.WEST);
+        new Wall(mtl, 3, 3, Direction.WEST);
+        new Wall(mtl, 2, 4, Direction.WEST);
+        new Wall(mtl, 2, 5, Direction.EAST);
+        new Wall(mtl, 4, 2, Direction.NORTH);
+        new Wall(mtl, 3, 3, Direction.NORTH);
+        new Wall(mtl, 2, 4, Direction.NORTH);
+        new Wall(mtl, 2, 5, Direction.NORTH);
+        new Wall(mtl, 3, 6, Direction.EAST);
+        new Wall(mtl, 4, 7, Direction.EAST);
+        new Wall(mtl, 3, 6, Direction.NORTH);
+        new Wall(mtl, 4, 7, Direction.NORTH);
         //Place things
-        new Thing(mtl,4,1);
-        new Thing(mtl,3,2);
-        new Thing(mtl,2,3);
-        new Thing(mtl,1,4);
+        new Thing(mtl, 4, 1);
+        new Thing(mtl, 3, 2);
+        new Thing(mtl, 2, 3);
+        new Thing(mtl, 1, 4);
         //Instruct Robot to climb up the stairs while picking up things
         candice.move();
         candice.pickThing();
@@ -96,8 +95,8 @@ public class quiz1 {
         candice.putThing();
         //End
         candice.move();
-        
-       
-        
+
+
+
     }
 }
