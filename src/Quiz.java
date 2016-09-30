@@ -63,15 +63,15 @@ public class Quiz {
             // add 1 to the movement counter
             moves = moves + 1;
         }
-        
+
         // finish up moving
-        
+
         karel.move();
         karel.pickThing();
 
         // get robot to move down and place thing
 
-        
+
         karel.move();
         karel.putThing();
         karel.move();
