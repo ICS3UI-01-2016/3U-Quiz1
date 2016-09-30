@@ -20,7 +20,7 @@ public class Quiz1 {
      */
     public static void main(String[] args) {
         
-        // create a city
+        // create a city for robot
         City af = new City();
         // create a robot
         Robot rem = new Robot(af, 4, 0, Direction.EAST);
